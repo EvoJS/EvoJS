@@ -1,0 +1,28 @@
+{
+  "name": "evojs",
+  "version": "0.1.0",
+  "description": "Isometric Graphics for Javascript",
+  "main": "./src/evojs.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evojs/evojs.git"
+  },
+  "author": "Miska Kaipiainen <miska.kaipiainen@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/evojs/evojs/issues"
+  },
+  "homepage": "http://evojs.com",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.5"
+  }
+}
